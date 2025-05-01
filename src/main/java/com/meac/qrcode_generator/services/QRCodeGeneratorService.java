@@ -36,7 +36,7 @@ public class QRCodeGeneratorService {
 
         String url = storagePort.uploadFile(pngQrCodeData, UUID.randomUUID().toString(), "image/png");
 
-        return new QRCodeGenerateResponse(url).map;
+        return new QRCodeGenerateResponse(url);
 
 
 
