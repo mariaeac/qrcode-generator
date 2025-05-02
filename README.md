@@ -35,8 +35,7 @@ Demonstrar como:
 ### 2. Clonar o repositório
 
 ```bash
-git clone repositorio
-cd nome-do-repositorio
+git https://github.com/mariaeac/qrcode-generator.git
 ```
 
 ### 3. Configurar variáveis de ambiente
