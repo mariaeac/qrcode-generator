@@ -5,7 +5,8 @@
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
 
 
-Este projeto demonstra a integração da biblioteca [ZXing](https://github.com/zxing/zxing) do Google para geração de QR Codes com o armazenamento dos arquivos gerados no Amazon S3.
+Este projeto demonstra a integração da biblioteca [ZXing](https://github.com/zxing/zxing) do Google para geração de QR Codes com o armazenamento dos arquivos gerados no Amazon S3. A API também foi deployada em uma instância EC3, podendo ser acessada aqui: https://qrify-mu.vercel.app/
+
 
 ## 🚀 Tecnologias Utilizadas
 
