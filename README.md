@@ -3,9 +3,10 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 
-Este projeto demonstra a integração da biblioteca [ZXing](https://github.com/zxing/zxing) do Google para geração de QR Codes com o armazenamento dos arquivos gerados no Amazon S3. A API também foi deployada em uma instância EC3, podendo ser acessada aqui: https://qrify-mu.vercel.app/
+Este projeto demonstra a integração da biblioteca [ZXing](https://github.com/zxing/zxing) do Google para geração de QR Codes com o armazenamento dos arquivos gerados no Amazon S3. A API também foi deployada em uma instância Amazon EC3, podendo ser acessada aqui: https://qrify-mu.vercel.app/
 
 
 ## 🚀 Tecnologias Utilizadas
@@ -15,6 +16,8 @@ Este projeto demonstra a integração da biblioteca [ZXing](https://github.com/z
 - **Docker**
 - **AWS S3**
 - **AWS CLI (configurada com credenciais)**
+- **AWS EC2**
+- **AWS API Gateway**
 
 ## 🎯 Objetivo
 
@@ -23,7 +26,14 @@ Demonstrar como:
 1. Gerar QR Codes utilizando a biblioteca ZXing.
 2. Armazenar os arquivos gerados em um bucket do Amazon S3 via SDK da AWS.
 
-## 🚀 Como Executar
+## 🌐 Deploy
+- Frontend: Vercel
+- Backend: EC2 com IAM Rolem AWS API Gateway.
+
+## 🛡️ Integração com AWS API Gateway
+Para permitir que o front-end hospedado na Vercel se comunique com o back-end na EC2 de forma segura e eficiente, foi configurado um proxy reverso utilizando o AWS API Gateway.
+
+## 🚀 Como Executar localmente
 
 ### 1. Pré-requisitos
 
